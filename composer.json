@@ -1,0 +1,21 @@
+{
+    "name": "westacks/eloquent-i18n",
+    "description": "Multilingual models for Eloquent",
+    "type": "libraty",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WeStacks\\Eloquent\\I18n\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmytro Morozov",
+            "email": "puny.flash@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^9.19"
+    }
+}
